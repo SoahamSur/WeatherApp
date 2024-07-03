@@ -5,7 +5,7 @@ import json
 engine = pyttsx3.init()
 engine.setProperty('rate', 150)
 
-api_key = "4e6a3856412b4922bb5141121240207"
+api_key = "Your_api_Key"
 
 def get_weather_info(location):
     try:
